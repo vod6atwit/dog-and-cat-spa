@@ -233,7 +233,6 @@ int main() {
 
 			bool try1 = true;
 
-
 			edit.menuEdit();
 
 			cout << "\n Enter your choice: ";

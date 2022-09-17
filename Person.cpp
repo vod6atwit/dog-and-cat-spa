@@ -7,7 +7,7 @@
 using namespace std;
 
 int Person::numofPerson = 0;
-Person::Person(string f, string l, string a, string p, string e) :Information(a)
+Person::Person(string f, string l, string a, string p, string e) : Information(a)
 {
 	firstName = f;
 	lastName = l;

@@ -9,7 +9,7 @@ class Animal;
 
 Cat::~Cat()
 {
-	cout << " Bye bye cat ";
+	cout << " Done saving cat information ";
 }
 
 void Cat::displaycatInfor()

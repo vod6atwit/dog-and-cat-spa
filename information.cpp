@@ -1,7 +1,7 @@
 #include "information.h"
+using namespace std;
 
-Information::Information( string a, string fName)
-{
-	cout << " creating a new information \n";
-
+Information::Information(string a){
+	address = a;
+	cout << "creating a new information \n";
 }

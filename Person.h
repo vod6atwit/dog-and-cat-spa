@@ -4,7 +4,7 @@
 #pragma once
 #ifndef PERSON_H
 #define PERSON_H
-#include "Information.h"
+#include "information.h"
 #include "edit.h"
 #include "animal.h"
 #include <iostream>
@@ -51,7 +51,7 @@ public:
 	string getPhoneNumber() { return phoneNumber; }
 
 	void createInfor() {
-		cout << " Created a person information. ";
+		cout << "Created a person information. ";
 	}
 	void displayPerson();
 

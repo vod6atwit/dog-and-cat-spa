@@ -15,12 +15,11 @@ public:
 	Information() {
 		address = "";
 	}
-	Information(string a) {
-		address = a;
-	}
+	Information(string a);
+	// void information();
 	virtual string getAddress() = 0;
 	virtual void createInfor() {
-		cout << " Creating a new person Information \n";
+		cout << "Created a new person Information \n";
 	}
 };
 #endif // !INFORMATION_H
